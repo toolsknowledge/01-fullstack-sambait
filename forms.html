@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <form name="myForm">
+            <table>
+                <tr>
+                    <td><label>First Name</label></td>
+                    <td><input type="text" 
+                               name="fname"
+                               placeholder="Enter User Name"></td>
+                </tr>
+
+                <tr>
+                    <td><label>Last Name</label></td>
+                    <td><input type="text" 
+                               name="lname" 
+                               placeholder="Enter Last Name"></td>
+                </tr>
+
+                <tr>
+                    <td><label>Password</label></td>
+                    <td><input type="password"
+                               name="upwd"
+                               placeholder="Enter Password"></td>
+                </tr>
+
+                <tr>
+                    <td><label>Conf Password</label></td>
+                    <td><input type="password"
+                               name="cpwd"
+                               placeholder="Repeat Same Password"></td>
+                </tr>
+
+                <tr>
+                    <td><label>Email</label></td>
+                    <td><input type="email"
+                               name="uemail"
+                               placeholder="Enter Email"></td>
+                </tr>
+
+                <tr>
+                    <td><label>Mobile</label></td>
+                    <td><input type="number"
+                               name="umobile"
+                               placeholder="Enter Mobile Number"></td>
+                </tr>
+
+                <tr>
+                   <td><label>Gender</label></td>
+                   <td>
+                       <input type="radio" 
+                              name="gender" 
+                              value="male">Male
+                        <input type="radio"
+                               name="gender"
+                               value="female">Female
+                   </td> 
+                </tr>
+
+                <tr>
+                    <td><label>Skills</label></td>
+                    <td><input type="checkbox"
+                               name="skills"
+                               value="html">HTML
+                        <input type="checkbox"
+                               name="skills"
+                               value="css">CSS
+                    </td>
+                </tr>
+
+                <tr>
+                    <td></td>
+
+                    <td>
+                        <input type="checkbox"
+                               name="skills"
+                               value="js">JavaScript
+                        <input type="checkbox"
+                               name="skills"
+                               value="react">ReactJS
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label>Country</label></td>
+                    <td>
+                        <select name="ucountry">
+                            <option value="">Select Country</option>
+                            <option value="ind">India</option>
+                            <option value="usa">USA</option>
+                            <option value="uk">London</option>
+                            <option value="japan">Japan</option>
+                            <option value="canada">Canada</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label>DOB</label></td>
+                    <td>
+                        <input type="date" name="udob">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label>Pref Time</label></td>
+                    <td><input type="time" name="utime"></td>
+                </tr>
+
+                <tr>
+                    <td><label>Address</label></td>
+                    <td>
+                        <textarea name="uaddress"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label>Choose Pic</label></td>
+                    <td>
+                        <input type="file" name="upic">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="submit" value="Register">
+                    </td>
+                    <td>
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+
+
+            </table>
+        </form>
+    </body>
+</html>

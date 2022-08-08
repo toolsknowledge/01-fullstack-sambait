@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FieldSet</title>
+        <style>
+            fieldset{
+                width: 25%;
+                border-radius: 10px;
+                border-color: red;
+            }  
+            legend{
+                color: red;
+                background-color: yellow;
+                padding: 10px;
+                border: 1px solid red;
+                border-radius: 10px;
+            } 
+        </style>
+    </head>
+    <body>
+        <fieldset>
+            <legend>Login</legend>
+            <form>
+                <table>
+                    <tr>
+                        <th colspan="2">Student</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>User Name</label>
+                        </td>
+                        <td>
+                            <input type="text" 
+                                   name="uname" 
+                                   placeholder="Enter User Name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Password</label>
+                        </td>
+                        <td>
+                            <input type="password" name="upwd" placeholder="Enter Password">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <input type="submit" value="Login">
+                        </td>
+                        <td>
+                            <input type="reset" value="Reset">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </fieldset>
+    </body>
+</html>
